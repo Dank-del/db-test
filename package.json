@@ -1,0 +1,27 @@
+{
+  "name": "db-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "5.6.0",
+    "mysql2": "^3.6.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.35.0",
+    "sequelize-typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@types/node": "^20.9.1",
+    "@types/validator": "^13.11.6",
+    "prisma": "^5.6.0",
+    "tsx": "^4.1.3"
+  }
+}
